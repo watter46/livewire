@@ -17,6 +17,8 @@ RUN apt-get update \
     libicu-dev \
     libzip-dev \
   && apt-get clean \
+  && pecl install xdebug \
+  && docker-php-ext-enable xdebug \
   && docker-php-ext-install \
     intl \
     pdo_mysql \

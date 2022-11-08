@@ -12,7 +12,7 @@ USER_NAME=hoge
 #Laravelの設定
 WEB_PORT=28000
 DB_PORT=3306
-DB_NAME=laravel_local
+DB_NAME=livewire
 DB_USER=phper
 DB_PASS=secret
 EOT
